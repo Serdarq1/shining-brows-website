@@ -1,6 +1,7 @@
 import './globals.css';
 import { jost } from './fonts';
 import LenisProvider from '@/components/LenisProvider';
+import PageLoader from '@/components/PageLoader';
 
 // To load freight-big-pro from Adobe Fonts, add:
 //   <link rel="stylesheet" href="https://use.typekit.net/YOUR_KIT_ID.css" />
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="tr" className={jost.variable}>
       <body className="font-body bg-ivory text-charcoal antialiased">
         <link rel="stylesheet" href="https://use.typekit.net/jbn4cly.css" />
+        <PageLoader />
         <div className="grain" aria-hidden />
         <LenisProvider>{children}</LenisProvider>
       </body>

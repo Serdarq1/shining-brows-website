@@ -133,7 +133,7 @@ function SpinningLogoBlack({ label }) {
         </text>
       </svg>
       <Image
-        src="/images/logo_black.png"
+        src="/images/logo_black.png.png"
         alt=""
         width={220}
         height={80}

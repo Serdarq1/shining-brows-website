@@ -31,6 +31,37 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
+.page-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  background: theme('colors.charcoal');
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 420ms ease, visibility 420ms ease;
+}
+
+.page-loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.page-loader__logo {
+  width: min(320px, 68vw);
+  height: auto;
+  object-fit: contain;
+  animation: loader-logo-spin 1.45s linear infinite;
+  will-change: transform;
+}
+
+@keyframes loader-logo-spin {
+  to { transform: rotate(360deg); }
+}
+
 .accent-bar {
   position: fixed;
   top: 0;
@@ -87,5 +118,9 @@ body {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
+  }
+
+  .page-loader__logo {
+    animation: none;
   }
 }

@@ -48,7 +48,7 @@ export const WORKSHOPS = [
   {
     id: 'w-04',
     href: '/workshops/w-04',
-    master: { name: 'Ebru Aydoğan', photo: '/images/ebruaydoğan.png', status: 'master_trainer' },
+    master: { name: 'Ebru Aydoğan', photo: '/images/ebruaydogan.png', status: 'master_trainer' },
     type: 'face-to-face',
     location: 'Balıkesir',
     locationKey: 'balikesir',
@@ -74,7 +74,7 @@ export const WORKSHOPS = [
   {
     id: 'w-06',
     href: '/workshops/w-06',
-    master: { name: 'Zeynep Yiğit', photo: '/images/zeynepyiğit.png', status: 'master_trainer' },
+    master: { name: 'Zeynep Yiğit', photo: '/images/zeynepyigit.png', status: 'master_trainer' },
     type: 'face-to-face',
     location: 'KKTC',
     locationKey: 'kktc',
@@ -87,7 +87,7 @@ export const WORKSHOPS = [
   {
     id: 'w-07',
     href: '/workshops/w-07',
-    master: { name: 'Gözde Şenkal', photo: '/images/gözdeşenkal.png', status: 'master_trainer' },
+    master: { name: 'Gözde Şenkal', photo: '/images/gozdeşenkal.png', status: 'master_trainer' },
     type: 'face-to-face',
     location: 'İstanbul',
     locationKey: 'istanbul',
@@ -100,7 +100,7 @@ export const WORKSHOPS = [
   {
     id: 'w-08',
     href: '/workshops/w-08',
-    master: { name: 'Feride Özlem Gürkan', photo: '/images/ferideözlemgürkan.png', status: 'master_trainer' },
+    master: { name: 'Feride Özlem Gürkan', photo: '/images/ferideozlemgurkan.png', status: 'master_trainer' },
     type: 'face-to-face',
     location: 'Adana',
     locationKey: 'adana',
@@ -123,7 +123,7 @@ export const LOCATION_LABELS = {
 };
 
 export const RANK_LOGOS = {
-  founder: '/images/logo_black.png',
+  founder: '/images/logo_black.png.png',
   gold_master: '/images/goldmaster_logo.png',
   master_trainer: '/images/mastertrainer_logo.png',
 };

@@ -71,7 +71,7 @@ export default function Nav({ locale = 'tr', onLocaleChange, onMenuChange, force
 
   const onLight = false; // navbar stays in dark/glass mode always
   const glass = scrolled && !menuOpen;
-  const logoSrc = onLight ? '/images/logo_black.png' : '/images/logo_white.png';
+  const logoSrc = onLight ? '/images/logo_black.png.png' : '/images/logo_white.png';
   const textBase = onLight ? 'text-charcoal' : 'text-ivory';
 
   return (

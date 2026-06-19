@@ -23,7 +23,7 @@ export default function PromoBar({ hidden = false, locale = 'tr' }) {
       ].join(' ')}
     >
       <Image
-        src="/images/logo_black.png"
+        src="/images/logo_black.png.png"
         alt=""
         width={500}
         height={206}

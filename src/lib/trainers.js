@@ -32,7 +32,7 @@ export const TRAINERS = [
   {
     id: 'ebru',
     name: 'Ebru Aydoğan',
-    photo: '/images/ebruaydoğan.png',
+    photo: '/images/ebruaydogan.png',
     flag: '🇹🇷',
     countryKey: 'turkey',
     location: 'Balıkesir',
@@ -52,7 +52,7 @@ export const TRAINERS = [
   {
     id: 'zeynep',
     name: 'Zeynep Yiğit',
-    photo: '/images/zeynepyiğit.png',
+    photo: '/images/zeynepyigit.png',
     flag: '🇨🇾',
     countryKey: 'kktc',
     location: 'KKTC',
@@ -62,7 +62,7 @@ export const TRAINERS = [
   {
     id: 'gozde',
     name: 'Gözde Şenkal',
-    photo: '/images/gözdeşenkal.png',
+    photo: '/images/gozdeşenkal.png',
     flag: '🇹🇷',
     countryKey: 'turkey',
     location: 'İstanbul',
@@ -72,7 +72,7 @@ export const TRAINERS = [
   {
     id: 'feride',
     name: 'Feride Özlem Gürkan',
-    photo: '/images/ferideözlemgürkan.png',
+    photo: '/images/ferideozlemgurkan.png',
     flag: '🇹🇷',
     countryKey: 'turkey',
     location: 'Adana',
