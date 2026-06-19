@@ -25,13 +25,41 @@ export default function PageLoader() {
       aria-label="Site yükleniyor"
       aria-hidden={!isVisible}
     >
-      <img
-        src="/images/logo_white.png"
-        alt=""
-        width="320"
-        height="228"
-        className="page-loader__logo"
-      />
+      <div className="page-loader__brand" aria-hidden>
+        <svg
+          viewBox="0 0 200 200"
+          className="page-loader__orbit animate-spin-slow"
+        >
+          <defs>
+            <path
+              id="page-loader-orbit-path"
+              d="M 100,100 m -78,0 a 78,78 0 1,1 156,0 a 78,78 0 1,1 -156,0"
+              fill="none"
+            />
+          </defs>
+          <text
+            fill="#faf7f2"
+            style={{
+              fontFamily: 'var(--font-jost)',
+              fontSize: 13,
+              letterSpacing: '0.32em',
+              textTransform: 'uppercase',
+              fontWeight: 600,
+            }}
+          >
+            <textPath href="#page-loader-orbit-path" startOffset="0">
+              {'SHINING BROWS · '.repeat(3)}
+            </textPath>
+          </text>
+        </svg>
+        <img
+          src="/images/logo_white.png"
+          alt=""
+          width="220"
+          height="80"
+          className="page-loader__mark"
+        />
+      </div>
     </div>
   );
 }
