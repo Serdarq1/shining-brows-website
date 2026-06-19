@@ -1,5 +1,5 @@
 export const BRAND = {
-  name: 'SHINING BROWS',
+  name: 'Shining Brows',
   tagline: "Doğal kaş bakımında Türkiye'nin öncü akademisi.",
   founded: 2023,
   instagram: '@shiningbrows',

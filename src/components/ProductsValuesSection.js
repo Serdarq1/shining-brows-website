@@ -56,7 +56,7 @@ export default function ProductsValuesSection({ locale = 'tr' }) {
           <div className="reveal relative md:col-span-6 lg:col-span-5 w-full aspect-square">
             <Image
               src="/images/remover.png"
-              alt="SHINING BROWS Hybrid Remover"
+              alt="Shining Brows Hybrid Remover"
               fill
               sizes="(min-width: 1024px) 38vw, 80vw"
               className="object-contain object-center"

@@ -47,7 +47,7 @@ function SpinningLogo({ label }) {
           style={{
             fontFamily: 'var(--font-jost)',
             fontSize: 13,
-            textTransform: 'uppercase',
+            textTransform: 'none',
             fontWeight: 600,
           }}
         >

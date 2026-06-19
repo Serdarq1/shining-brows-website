@@ -15,7 +15,7 @@ const en = {
     followUs: 'Follow us',
   },
   promo: {
-    appName: 'SHINING Brows Expert Portal',
+    appName: 'Shining Brows Expert Portal',
     downloadApp: 'Download App',
   },
   hybrid: {
@@ -37,8 +37,8 @@ const en = {
       'Professional Use',
     ],
     productLabel: 'Hybrid Remover',
-    productMark: 'SHINING BROWS',
-    spinningLabel: 'SHINING BROWS · SHINING BROWS · ',
+    productMark: 'Shining Brows',
+    spinningLabel: 'Shining Brows · Shining Brows · ',
     ingredients: [
       'Glycolic Acid',
       'Panthenol',
@@ -50,8 +50,8 @@ const en = {
   },
   courses: {
     eyebrow: 'Courses',
-    italicLabel: 'SHININGBROWS',
-    body1: 'Trainees from around the world choose the SHINING BROWS brand because they know every certified expert has been through rigorous, professional training that is a first in the industry.',
+    italicLabel: 'Shining Brows',
+    body1: 'Trainees from around the world choose the Shining Brows brand because they know every certified expert has been through rigorous, professional training that is a first in the industry.',
     body2: 'The quality and precision of the techniques we develop are internationally recognised — opening the door to clients who put craft above price.',
     items: [
       { name: 'Brow Vitamin', subtitle: 'Care & Repair', href: '/courses/brow-vitamin', imageSrc: '/images/brow_vitamin.png' },
@@ -62,41 +62,41 @@ const en = {
     seeAll: 'See All',
   },
   gallery: {
-    ariaLabel: 'SHINING BROWS product gallery',
+    ariaLabel: 'Shining Brows product gallery',
     headline: {
       line1: 'Revolutionary products,',
       line2: 'revolutionizing the world.',
     },
-    body: 'Created for natural, safe, professional and result-focused beauty work, SHINING BROWS products support experts with formulas built for precision. Hybrid Remover stands apart as the only remover with a hybrid formula, designed to lift unwanted pigment gently while respecting the skin and the integrity of professional brow work.',
+    body: 'Created for natural, safe, professional and result-focused beauty work, Shining Brows products support experts with formulas built for precision. Hybrid Remover stands apart as the only remover with a hybrid formula, designed to lift unwanted pigment gently while respecting the skin and the integrity of professional brow work.',
   },
   master: {
-    ariaLabel: 'SHINING BROWS master journey',
+    ariaLabel: 'Shining Brows master journey',
     headline: 'BECOME A SHINING ARTIST',
-    subline: 'OF SHINING BROWS',
+    subline: 'OF Shining Brows',
     levels: ['Student', 'Shining Artist', 'Master Assistant', 'Master Trainer', 'Gold Master'],
-    body1: 'Step into a structured artist path built for educators, salon leaders, and brow professionals ready to represent the SHINING BROWS standard with confidence.',
+    body1: 'Step into a structured artist path built for educators, salon leaders, and brow professionals ready to represent the Shining Brows standard with confidence.',
     body2: 'The master journey combines advanced technique, brand discipline, mentorship, and international visibility so your work can grow beyond the treatment room.',
     cta: 'Start your journey as a Shining Artist',
     ctaHref: '/workshops',
   },
   experts: {
-    ariaLabel: 'SHINING BROWS experts',
-    headline: 'SHINING BROWS',
+    ariaLabel: 'Shining Brows experts',
+    headline: 'Shining Brows',
     subline: 'EXPERTS',
     map: {
       title: 'Expert Map',
-      body: 'Find certified SHINING BROWS artists and masters near you, all gathered in one trusted expert map.',
+      body: 'Find certified Shining Brows artists and masters near you, all gathered in one trusted expert map.',
       cta: 'See More',
     },
     app: {
       title: 'Expert App',
-      body: 'Manage your expert journey, training access, updates, and brand resources from the SHINING Brows Expert Portal.',
+      body: 'Manage your expert journey, training access, updates, and brand resources from the Shining Brows Expert Portal.',
       cta: 'Download App',
     },
   },
   about: {
-    eyebrow: 'SHINING BROWS Academy',
-    spinningLabel: 'SHINING BROWS · SHINING BROWS · ',
+    eyebrow: 'Shining Brows Academy',
+    spinningLabel: 'Shining Brows · Shining Brows · ',
     headline: {
       line1: 'We train the experts',
       line2: 'the world is searching for —',
@@ -119,7 +119,7 @@ const en = {
     title: 'Expert',
     subtitle: 'Map',
     intro:
-      'Discover the certified SHINING BROWS expert closest to you — search the map or look one up by name.',
+      'Discover the certified Shining Brows expert closest to you — search the map or look one up by name.',
     locationLabel: 'Location',
     locationPlaceholder: 'City or country',
     nameLabel: 'Expert Name',
@@ -162,7 +162,7 @@ const en = {
         },
         {
           title: 'Which products are used?',
-          body: 'The professional application uses SHINING BROWS Hair & Brow Vitamin serum, paired with Vitamin Home Serum for the at-home maintenance routine. Both are designed to be gentle on the skin and respectful of the hair structure.',
+          body: 'The professional application uses Shining Brows Hair & Brow Vitamin serum, paired with Vitamin Home Serum for the at-home maintenance routine. Both are designed to be gentle on the skin and respectful of the hair structure.',
           image: '/images/hairandbrowvitamin_product.png',
           side: 'right',
           ingredients: ['Prunus Amygdalus Dulcis Oil', 'Ricinus Communis Seed Oil', 'Jasminum Officinale Oil', 'Cananga Odorata Flower Oil', 'Argania Spinosa Kernel Oil', 'Tocopheryl Acetate', 'Allium Sativum Bulb Oil'],
@@ -190,7 +190,7 @@ const en = {
         },
         {
           title: 'Which product is used?',
-          body: 'The treatment is built around SHINING BROWS Hybrid Remover — the industry’s first and only hybrid-formula remover.',
+          body: 'The treatment is built around Shining Brows Hybrid Remover — the industry’s first and only hybrid-formula remover.',
           image: '/images/remover_product.png',
           side: 'right',
           ingredients: ['Glycerin', 'Glycolic Acid', 'Panthenol', 'Cocamidopropyl Betaine', 'Chamomilla Recutita Extract', 'Punica Granatum Peel Extract', 'Hyaluronic Acid', 'Sambucus Nigra Fruit Extract'],
@@ -227,7 +227,7 @@ const en = {
     },
   },
   coursesPage: {
-    ariaLabel: 'SHINING BROWS Workshops',
+    ariaLabel: 'Shining Brows Workshops',
     title: 'What awaits you in Shining Brows Workshops?',
     countries: {
       turkey: 'Turkey',
@@ -240,17 +240,17 @@ const en = {
       'Your Shining Brows journey unfolds across a five-stage plan — from the foundational Student stage to the industry-defining Gold Master status. Each stage delivers a measurable framework built on technical depth, brand discipline, and mentorship.',
     trainingTitle: 'How do our trainings unfold?',
     trainingBody:
-      'SHINING BROWS workshops move along a three-point triangle: theory, live practice and one-to-one mentorship. The two-day in-person training combines technique demonstrations, hands-on work on models, and detailed feedback sessions with our experts. By the end of the program every participant has the confidence to carry a real client journey from start to finish.',
+      'Shining Brows workshops move along a three-point triangle: theory, live practice and one-to-one mentorship. The two-day in-person training combines technique demonstrations, hands-on work on models, and detailed feedback sessions with our experts. By the end of the program every participant has the confidence to carry a real client journey from start to finish.',
     certificatesTitle: 'Certificates',
     certificatesSubline: 'Shining Brows',
     certificatesBody:
-      'Every participant who completes the two-day live training receives a certificate of attendance. As you progress through the journey you earn higher certifications — Shining Artist, Master Assistant and Master Trainer — each one formally confirming your place on the SHINING BROWS expert map.',
+      'Every participant who completes the two-day live training receives a certificate of attendance. As you progress through the journey you earn higher certifications — Shining Artist, Master Assistant and Master Trainer — each one formally confirming your place on the Shining Brows expert map.',
   },
   productDetails: {
     ingredients: 'Ingredients',
   },
   productShowcase: {
-    ariaLabel: 'SHINING BROWS Products',
+    ariaLabel: 'Shining Brows Products',
     ingredientsLabel: 'Ingredients',
     items: [
       {
@@ -339,7 +339,7 @@ const en = {
     ariaLabel: 'Our values',
     headlineLine1: 'NATURAL',
     headlineLine2: '— ALWAYS COMES FIRST',
-    body: 'At SHINING BROWS, natural products, proven results, expert craftsmanship, and our clients always come first. Our formulas are developed to suit even the most sensitive skin — which is why we remain the first choice of experts and clients around the world.',
+    body: 'At Shining Brows, natural products, proven results, expert craftsmanship, and our clients always come first. Our formulas are developed to suit even the most sensitive skin — which is why we remain the first choice of experts and clients around the world.',
   },
   workshop: {
     ariaLabel: 'Workshop Registration',
@@ -349,7 +349,7 @@ const en = {
     daysEvent: 'days event',
     formTitle: 'Become a Shining Artist',
     formIntro:
-      'Fill out the details below to reserve your spot. The SHINING BROWS team will get back to you shortly.',
+      'Fill out the details below to reserve your spot. The Shining Brows team will get back to you shortly.',
     nameLabel: 'Name',
     surnameLabel: 'Surname',
     phoneLabel: 'Phone',
@@ -358,7 +358,7 @@ const en = {
     submit: 'Register',
     successTitle: 'Your Application Was Received',
     successBody:
-      'Our team will reach out to you shortly. In the meantime, feel free to explore the latest from SHINING BROWS.',
+      'Our team will reach out to you shortly. In the meantime, feel free to explore the latest from Shining Brows.',
     backToCalendar: 'Back to the Workshop Calendar',
     notFoundTitle: 'Workshop not found',
     notFoundBody: 'The workshop you are looking for may no longer be on the calendar.',
@@ -369,7 +369,7 @@ const en = {
     title: 'Workshop',
     subtitle: 'Calendar',
     intro:
-      'Every live and online course led by SHINING BROWS masters, gathered into a single calendar. Use the filters below to find the date nearest you.',
+      'Every live and online course led by Shining Brows masters, gathered into a single calendar. Use the filters below to find the date nearest you.',
     filters: {
       location: 'Location',
       type: 'Format',
@@ -399,22 +399,22 @@ const en = {
   joinIndustry: {
     ariaLabel: 'Join those who make a difference in the industry',
     title: 'Join those who make a difference in the industry',
-    body: 'The SHINING BROWS family brings together experts from around the world. Step into our courses and become part of our vision of natural beauty — embracing technique, brand discipline, and international visibility as you take your place among the industry’s leading specialists.',
+    body: 'The Shining Brows family brings together experts from around the world. Step into our courses and become part of our vision of natural beauty — embracing technique, brand discipline, and international visibility as you take your place among the industry’s leading specialists.',
     cta: 'Join Us',
     ctaHref: '/workshops',
   },
   story: {
-    ariaLabel: 'Feedbacks — SHINING BROWS',
+    ariaLabel: 'Feedbacks — Shining Brows',
     title: 'FEEDBACKS',
     subline: 'Shining Brows',
     resume: 'Resume Feedbacks',
   },
   biggestAcademy: {
     ariaLabel: 'Creating fully natural',
-    eyebrow: 'SHININGBROWS',
+    eyebrow: 'Shining Brows',
     headlineRoman: 'Creating fully natural',
     headlineItalic: '— revoulationary products',
-    body: 'We pioneered the natural brow standard — combining a hybrid formula safe for the skin, a rigorous education path for experts, and a global community of certified artists. Every SHINING BROWS specialist is trained through a structured, industry-first curriculum designed to deliver consistent, refined results that endure.',
+    body: 'We pioneered the natural brow standard — combining a hybrid formula safe for the skin, a rigorous education path for experts, and a global community of certified artists. Every Shining Brows specialist is trained through a structured, industry-first curriculum designed to deliver consistent, refined results that endure.',
   },
   hero: {
     body: 'A revolutionary product in the beauty sector, Hybrid Remover',
@@ -431,7 +431,7 @@ const en = {
       iletisim: 'Contact',
     },
     cta: 'Join Workshop',
-    rights: '©2026 SHINING BROWS Academy',
+    rights: '©2026 Shining Brows Academy',
   },
 };
 

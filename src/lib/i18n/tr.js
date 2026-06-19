@@ -15,7 +15,7 @@ const tr = {
     followUs: 'Bizi Takip Edin',
   },
   promo: {
-    appName: 'SHINING Brows Expert Portal',
+    appName: 'Shining Brows Expert Portal',
     downloadApp: 'Uygulamayı İndir',
   },
   hybrid: {
@@ -37,8 +37,8 @@ const tr = {
       'Profesyonel Kullanım',
     ],
     productLabel: 'Hybrid Remover',
-    productMark: 'SHINING BROWS',
-    spinningLabel: 'SHINING BROWS · SHINING BROWS · ',
+    productMark: 'Shining Brows',
+    spinningLabel: 'Shining Brows · Shining Brows · ',
     ingredients: [
       'Glycolic Acid',
       'Panthenol',
@@ -50,8 +50,8 @@ const tr = {
   },
   courses: {
     eyebrow: 'Eğitimler',
-    italicLabel: 'SHININGBROWS',
-    body1: 'Dünyanın dört bir yanından kursiyerler SHINING BROWS markasını seçiyor — çünkü her diplomalı uzmanımızın titiz, profesyonel ve sektörde ilk olan bir eğitimden geçtiğini biliyorlar.',
+    italicLabel: 'Shining Brows',
+    body1: 'Dünyanın dört bir yanından kursiyerler Shining Brows markasını seçiyor — çünkü her diplomalı uzmanımızın titiz, profesyonel ve sektörde ilk olan bir eğitimden geçtiğini biliyorlar.',
     body2: 'Geliştirdiğimiz tekniklerin kalitesi ve hassasiyeti uluslararası alanda tanınıyor; kaliteyi her şeyin önünde tutan müşterilere ulaşmanın kapısını açıyor.',
     items: [
       { name: 'Kaş Vitamini', href: '/courses/brow-vitamin', imageSrc: '/images/brow_vitamin.png' },
@@ -62,41 +62,41 @@ const tr = {
     seeAll: 'Tümünü Gör',
   },
   gallery: {
-    ariaLabel: 'SHINING BROWS ürün galerisi',
+    ariaLabel: 'Shining Brows ürün galerisi',
     headline: {
       line1: 'Devrim niteliğinde ürünler,',
       line2: 'dünyayı dönüştüren sonuçlar.',
     },
-    body: 'Doğal, güvenli, profesyonel ve sonuç odaklı güzellik uygulamaları için geliştirilen SHINING BROWS ürünleri, uzmanlara hassasiyet için tasarlanmış formüller sunar. Hybrid Remover, hibrit formüle sahip tek remover olarak öne çıkar; istenmeyen pigmenti nazikçe açarken cilde ve profesyonel kaş çalışmasının bütünlüğüne saygı duyar.',
+    body: 'Doğal, güvenli, profesyonel ve sonuç odaklı güzellik uygulamaları için geliştirilen Shining Brows ürünleri, uzmanlara hassasiyet için tasarlanmış formüller sunar. Hybrid Remover, hibrit formüle sahip tek remover olarak öne çıkar; istenmeyen pigmenti nazikçe açarken cilde ve profesyonel kaş çalışmasının bütünlüğüne saygı duyar.',
   },
   master: {
-    ariaLabel: 'SHINING BROWS master yolculuğu',
-    headline: "SHINING BROWS'un",
+    ariaLabel: 'Shining Brows master yolculuğu',
+    headline: "Shining Brows'un",
     subline: 'YENİ MASTER TRAINERI SİZ OLUN',
     levels: ['Student', 'Shining Artist', 'Master Assistant', 'Master Trainer', 'Gold Master'],
-    body1: 'Eğitmenler, salon liderleri ve kaş profesyonelleri için tasarlanan yapılandırılmış bir gelişim yolculuğuna adım atın; SHINING BROWS standardını güvenle temsil edin.',
+    body1: 'Eğitmenler, salon liderleri ve kaş profesyonelleri için tasarlanan yapılandırılmış bir gelişim yolculuğuna adım atın; Shining Brows standardını güvenle temsil edin.',
     body2: 'Master yolculuğu; ileri teknik, marka disiplini, mentorluk ve uluslararası görünürlüğü bir araya getirerek uzmanlığınızı uygulama odasının ötesine taşır.',
     cta: 'Shining Artist yolculuğuna başla',
     ctaHref: '/workshops',
   },
   experts: {
-    ariaLabel: 'SHINING BROWS uzmanları',
-    headline: 'SHINING BROWS',
+    ariaLabel: 'Shining Brows uzmanları',
+    headline: 'Shining Brows',
     subline: 'UZMANLARI',
     map: {
       title: 'Uzman Haritası',
-      body: 'Size en yakın sertifikalı SHINING BROWS artist ve master uzmanlarını güvenilir uzman haritasında bulun.',
+      body: 'Size en yakın sertifikalı Shining Brows artist ve master uzmanlarını güvenilir uzman haritasında bulun.',
       cta: 'Detayları Gör',
     },
     app: {
       title: 'Expert App',
-      body: 'Uzman yolculuğunuzu, eğitim erişimlerinizi, güncellemeleri ve marka kaynaklarını SHINING Brows Expert Portal üzerinden yönetin.',
+      body: 'Uzman yolculuğunuzu, eğitim erişimlerinizi, güncellemeleri ve marka kaynaklarını Shining Brows Expert Portal üzerinden yönetin.',
       cta: 'Uygulamayı İndir',
     },
   },
   about: {
-    eyebrow: 'SHINING BROWS Academy',
-    spinningLabel: 'SHINING BROWS · SHINING BROWS · ',
+    eyebrow: 'Shining Brows Academy',
+    spinningLabel: 'Shining Brows · Shining Brows · ',
     headline: {
       line1: 'En çok aranan',
       line2: 'uzmanları',
@@ -110,8 +110,8 @@ const tr = {
     ],
   },
   aboutPage: {
-    ariaLabel: 'SHINING BROWS Hakkımızda',
-    body: '2023 yılında İzmir’de kurulan SHINING BROWS Academy; doğal teknik, güvenli formüller ve ödün vermeyen ustalıkla sektörün uzmanlarını yetiştirir.',
+    ariaLabel: 'Shining Brows Hakkımızda',
+    body: '2023 yılında İzmir’de kurulan Shining Brows Academy; doğal teknik, güvenli formüller ve ödün vermeyen ustalıkla sektörün uzmanlarını yetiştirir.',
     headlineLeft: 'DÜNYANIN HER YERİNDE',
     headlineRight: '— DOĞAL GÜZELLİK YARATIYORUZ.',
   },
@@ -121,7 +121,7 @@ const tr = {
     title: 'Uzman',
     subtitle: 'Haritası',
     intro:
-      'Size en yakın sertifikalı SHINING BROWS uzmanını harita üzerinden veya isimle arayarak keşfedin.',
+      'Size en yakın sertifikalı Shining Brows uzmanını harita üzerinden veya isimle arayarak keşfedin.',
     locationLabel: 'Lokasyon',
     locationPlaceholder: 'Şehir veya ülke',
     nameLabel: 'Uzman Adı',
@@ -164,7 +164,7 @@ const tr = {
         },
         {
           title: 'Kullanılan ürünler',
-          body: 'Profesyonel uygulamada SHINING BROWS Hair & Brow Vitamin serumu, evdeki sürdürülebilir bakım için ise Vitamin Home Serum kullanılır. Her iki ürün de cildi yormayan, kıl yapısına nazik formüllerle tasarlanmıştır.',
+          body: 'Profesyonel uygulamada Shining Brows Hair & Brow Vitamin serumu, evdeki sürdürülebilir bakım için ise Vitamin Home Serum kullanılır. Her iki ürün de cildi yormayan, kıl yapısına nazik formüllerle tasarlanmıştır.',
           image: '/images/hairandbrowvitamin_product.png',
           side: 'right',
           ingredients: ['Prunus Amygdalus Dulcis Oil', 'Ricinus Communis Seed Oil', 'Jasminum Officinale Oil', 'Cananga Odorata Flower Oil', 'Argania Spinosa Kernel Oil', 'Tocopheryl Acetate', 'Allium Sativum Bulb Oil'],
@@ -192,7 +192,7 @@ const tr = {
         },
         {
           title: 'Kullanılan ürün',
-          body: 'Uygulamanın merkezinde SHINING BROWS Hybrid Remover yer alır — sektörde ilk ve tek hibrit formüllü remover.',
+          body: 'Uygulamanın merkezinde Shining Brows Hybrid Remover yer alır — sektörde ilk ve tek hibrit formüllü remover.',
           image: '/images/remover_product.png',
           side: 'right',
           ingredients: ['Glycerin', 'Glycolic Acid', 'Panthenol', 'Cocamidopropyl Betaine', 'Chamomilla Recutita Extract', 'Punica Granatum Peel Extract', 'Hyaluronic Acid', 'Sambucus Nigra Fruit Extract'],
@@ -229,8 +229,8 @@ const tr = {
     },
   },
   coursesPage: {
-    ariaLabel: 'SHINING BROWS Workshopları',
-    title: 'SHINING BROWS workshoplarında sizi neler bekliyor?',
+    ariaLabel: 'Shining Brows Workshopları',
+    title: 'Shining Brows workshoplarında sizi neler bekliyor?',
     countries: {
       turkey: 'Türkiye',
       netherlands: 'Hollanda',
@@ -242,17 +242,17 @@ const tr = {
       'Shining Brows yolculuğunuz beş aşamalı bir plan üzerinde ilerler — temellerin atıldığı Student aşamasından sektörün öncüsü Gold Master statüsüne kadar. Her aşama; teknik derinlik, marka disiplini ve mentorluk üzerine kurulu, ölçülebilir bir gelişim çerçevesi sunar.',
     trainingTitle: 'Eğitimlerimiz nasıl geçiyor?',
     trainingBody:
-      'SHINING BROWS workshopları; teori, canlı uygulama ve birebir mentorluk üçgeninde ilerler. İki günlük yüz yüze eğitimde teknik gösterimler, model üzerinde uygulama ve uzmanlarımızla detaylı geri bildirim oturumları bir arada sunulur. Eğitim sonunda her katılımcı, gerçek bir müşteri akışını başından sonuna kadar tamamlayacak güvene ulaşır.',
+      'Shining Brows workshopları; teori, canlı uygulama ve birebir mentorluk üçgeninde ilerler. İki günlük yüz yüze eğitimde teknik gösterimler, model üzerinde uygulama ve uzmanlarımızla detaylı geri bildirim oturumları bir arada sunulur. Eğitim sonunda her katılımcı, gerçek bir müşteri akışını başından sonuna kadar tamamlayacak güvene ulaşır.',
     certificatesTitle: 'Sertifikalar',
     certificatesSubline: 'Shining Brows',
     certificatesBody:
-      'İki günlük yüz yüze eğitimi tamamlayan her katılımcı önce katılım sertifikasını alır. Yolculuğunuz ilerledikçe ölçülebilir aşamalara karşılık gelen yeni sertifikalar kazanırsınız: Shining Artist, Master Assistant ve Master Trainer. Her belge, SHINING BROWS uzman haritasındaki yerinizi resmen onaylar.',
+      'İki günlük yüz yüze eğitimi tamamlayan her katılımcı önce katılım sertifikasını alır. Yolculuğunuz ilerledikçe ölçülebilir aşamalara karşılık gelen yeni sertifikalar kazanırsınız: Shining Artist, Master Assistant ve Master Trainer. Her belge, Shining Brows uzman haritasındaki yerinizi resmen onaylar.',
   },
   productDetails: {
     ingredients: 'İçindekiler',
   },
   productShowcase: {
-    ariaLabel: 'SHINING BROWS Ürünleri',
+    ariaLabel: 'Shining Brows Ürünleri',
     ingredientsLabel: 'İçindekiler',
     items: [
       {
@@ -341,7 +341,7 @@ const tr = {
     ariaLabel: 'Değerlerimiz',
     headlineLine1: 'DOĞALLIK',
     headlineLine2: '— HER ZAMAN ÖNCE',
-    body: 'SHINING BROWS; doğal ürünleri, kanıtlanmış sonuçları, alanında uzman ekibi ve müşterilerini her zaman önde tutar. Formüllerimiz hassas ciltlere bile uyumlu olacak şekilde geliştirildi; bu yüzden dünyanın dört bir yanındaki uzmanların ve müşterilerin ilk tercihi olmaya devam ediyoruz.',
+    body: 'Shining Brows; doğal ürünleri, kanıtlanmış sonuçları, alanında uzman ekibi ve müşterilerini her zaman önde tutar. Formüllerimiz hassas ciltlere bile uyumlu olacak şekilde geliştirildi; bu yüzden dünyanın dört bir yanındaki uzmanların ve müşterilerin ilk tercihi olmaya devam ediyoruz.',
   },
   workshop: {
     ariaLabel: 'Workshop Kayıt',
@@ -351,7 +351,7 @@ const tr = {
     daysEvent: 'günlük etkinlik',
     formTitle: 'Bir Shining Artist Ol',
     formIntro:
-      'Aşağıdaki bilgileri doldurarak yerinizi ayırtın. SHINING BROWS ekibi en kısa sürede sizinle iletişime geçecek.',
+      'Aşağıdaki bilgileri doldurarak yerinizi ayırtın. Shining Brows ekibi en kısa sürede sizinle iletişime geçecek.',
     nameLabel: 'Ad',
     surnameLabel: 'Soyad',
     phoneLabel: 'Telefon',
@@ -360,7 +360,7 @@ const tr = {
     submit: 'Kayıt Ol',
     successTitle: 'Başvurunuz Alındı',
     successBody:
-      'Ekibimiz en kısa sürede sizinle iletişime geçecek. Bu sırada SHINING BROWS hakkındaki en yeni içeriklere göz atabilirsiniz.',
+      'Ekibimiz en kısa sürede sizinle iletişime geçecek. Bu sırada Shining Brows hakkındaki en yeni içeriklere göz atabilirsiniz.',
     backToCalendar: 'Workshop Takvimine Dön',
     notFoundTitle: 'Workshop bulunamadı',
     notFoundBody: 'Aradığınız workshop artık takvimde yer almıyor olabilir.',
@@ -369,7 +369,7 @@ const tr = {
     title: 'Workshop',
     subtitle: 'Takvimi',
     intro:
-      'SHINING BROWS uzmanlarının dünyanın dört bir yanında düzenlediği canlı ve online eğitimlerin tamamı tek bir takvimde. Aşağıdaki filtreleri kullanarak size en yakın tarihi keşfedin.',
+      'Shining Brows uzmanlarının dünyanın dört bir yanında düzenlediği canlı ve online eğitimlerin tamamı tek bir takvimde. Aşağıdaki filtreleri kullanarak size en yakın tarihi keşfedin.',
     filters: {
       location: 'Lokasyon',
       type: 'Format',
@@ -399,22 +399,22 @@ const tr = {
   joinIndustry: {
     ariaLabel: 'Sektörde fark yaratanların arasına katılın',
     title: 'Sektörde fark yaratanların arasına katılın',
-    body: 'SHINING BROWS ailesi, dünyanın dört bir yanından uzmanları bir araya getiriyor. Eğitimlerimize katılarak siz de doğal güzellik vizyonumuzun bir parçası olun; teknik, marka disiplini ve uluslararası görünürlüğü kucaklayan, sektörün öncü uzmanları arasında yerinizi alın.',
+    body: 'Shining Brows ailesi, dünyanın dört bir yanından uzmanları bir araya getiriyor. Eğitimlerimize katılarak siz de doğal güzellik vizyonumuzun bir parçası olun; teknik, marka disiplini ve uluslararası görünürlüğü kucaklayan, sektörün öncü uzmanları arasında yerinizi alın.',
     cta: 'Aramıza Katıl',
     ctaHref: '/workshops',
   },
   story: {
-    ariaLabel: 'Yorumlar — SHINING BROWS',
+    ariaLabel: 'Yorumlar — Shining Brows',
     title: 'Yorumlar',
     subline: 'Shining Brows',
     resume: 'Yorumlara Dön',
   },
   biggestAcademy: {
     ariaLabel: 'Sektörde çığı açan ürünler',
-    eyebrow: 'SHININGBROWS',
+    eyebrow: 'Shining Brows',
     headlineRoman: 'Sektörde çığır açan ürünler',
     headlineItalic: '— üstelik tamamen doğal',
-    body: 'Doğal kaş standardının öncüsü olduk — cilde zarar vermeyen hibrit formülü, uzmanlar için titizlikle hazırlanmış eğitim yolculuğunu ve sertifikalı sanatçılardan oluşan küresel bir topluluğu bir araya getirdik. Her SHINING BROWS uzmanı; tutarlı, rafine ve kalıcı sonuçlar verecek şekilde tasarlanmış, sektörde ilk olan yapılandırılmış bir müfredatla yetişir.',
+    body: 'Doğal kaş standardının öncüsü olduk — cilde zarar vermeyen hibrit formülü, uzmanlar için titizlikle hazırlanmış eğitim yolculuğunu ve sertifikalı sanatçılardan oluşan küresel bir topluluğu bir araya getirdik. Her Shining Brows uzmanı; tutarlı, rafine ve kalıcı sonuçlar verecek şekilde tasarlanmış, sektörde ilk olan yapılandırılmış bir müfredatla yetişir.',
   },
   hero: {
     body: 'Sektörde ilk ve tek olan yeni bir ürün, Hybrid Remover',
@@ -431,7 +431,7 @@ const tr = {
       iletisim: 'İletişim',
     },
     cta: 'Workshop Kaydol',
-    rights: '©2026 SHINING BROWS Academy',
+    rights: '©2026 Shining Brows Academy',
   },
 };
 

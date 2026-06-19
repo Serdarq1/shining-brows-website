@@ -7,7 +7,7 @@ import { RANK_LOGOS } from '@/lib/trainers';
 /* ---------------------------------------------------------------------------
  * CoursesHero — single editorial template used for the /courses page.
  *
- *   • Big white SHINING BROWS monogram at the top.
+ *   • Big white Shining Brows monogram at the top.
  *   • Title underneath: "What awaits you in Shining Brows Workshops?".
  *   • A scattered, intentionally-asymmetric arrangement of master trainer
  *     portraits beneath the title. Each card shows the trainer's name +
@@ -241,7 +241,7 @@ export default function CoursesHero({ locale = 'tr', trainers = SCATTERED_TRAINE
       >
         <Image
           src="/images/logo_white_with_text.png"
-          alt="SHINING BROWS"
+          alt="Shining Brows"
           fill
           sizes="(min-width: 1024px) 820px, 80vw"
           className="object-contain object-center"

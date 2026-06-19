@@ -43,12 +43,12 @@ export default function PageLoader() {
               fontFamily: 'var(--font-jost)',
               fontSize: 13,
               letterSpacing: '0.32em',
-              textTransform: 'uppercase',
+              textTransform: 'none',
               fontWeight: 600,
             }}
           >
             <textPath href="#page-loader-orbit-path" startOffset="0">
-              {'SHINING BROWS · '.repeat(3)}
+              {'Shining Brows · '.repeat(3)}
             </textPath>
           </text>
         </svg>

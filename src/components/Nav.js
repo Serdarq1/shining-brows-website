@@ -88,11 +88,11 @@ export default function Nav({ locale = 'tr', onLocaleChange, onMenuChange, force
         aria-hidden={menuOpen || forceHidden}
       >
         <div className="relative max-w-[1600px] mx-auto px-7 md:px-10 h-[84px] md:h-[76px] flex items-center justify-between">
-          <Link href="/" aria-label="SHINING BROWS — anasayfa" className="flex items-center">
+          <Link href="/" aria-label="Shining Brows — anasayfa" className="flex items-center">
             <Image
               key={logoSrc}
               src={logoSrc}
-              alt="SHINING BROWS"
+              alt="Shining Brows"
               width={520}
               height={180}
               priority

@@ -7,7 +7,7 @@ import { getDictionary } from '@/lib/i18n';
  * CertificatesSection — editorial two-column panel modelled on the Phi
  * "Certificates — BoldBrows" composition.
  *
- *   • Left column: the SHINING BROWS certificates lineup as a single image
+ *   • Left column: the Shining Brows certificates lineup as a single image
  *     (`/images/certificates_together.png`).
  *   • Right column: roman headline + italic counterpoint + a short
  *     descriptive paragraph explaining the certification path.
@@ -43,7 +43,7 @@ export default function CertificatesSection({ locale = 'tr' }) {
           <div className="reveal md:col-span-7 lg:col-span-6 relative w-full aspect-[4/3]">
             <Image
               src="/images/certificates_together.png"
-              alt="SHINING BROWS certificates"
+              alt="Shining Brows certificates"
               fill
               sizes="(min-width: 1024px) 45vw, 90vw"
               className="object-contain object-center drop-shadow-[0_40px_80px_rgba(0,0,0,0.55)]"

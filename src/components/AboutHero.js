@@ -264,7 +264,7 @@ export default function AboutHero({ locale = 'tr' }) {
       >
         <Image
           src="/images/logo_white.png"
-          alt="SHINING BROWS"
+          alt="Shining Brows"
           width={120}
           height={48}
           className="h-7 w-auto md:h-10 object-contain"

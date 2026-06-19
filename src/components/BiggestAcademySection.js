@@ -49,7 +49,7 @@ function SpinningLogo({ label }) {
             fontFamily: 'var(--font-jost)',
             fontSize: 13,
             letterSpacing: '0.32em',
-            textTransform: 'uppercase',
+            textTransform: 'none',
             fontWeight: 600,
           }}
         >

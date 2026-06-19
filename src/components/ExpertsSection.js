@@ -105,7 +105,7 @@ export default function ExpertsSection({ locale = 'tr' }) {
       <div className="mx-auto max-w-[1600px] px-7 md:px-10">
         <div className="reveal max-w-[980px]">
           <h2
-            className="font-logo uppercase text-ivory"
+            className="font-logo text-ivory"
             style={{
               fontSize: 'clamp(64px, 10vw, 178px)',
               lineHeight: 0.9,

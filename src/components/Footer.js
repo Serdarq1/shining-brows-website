@@ -15,7 +15,7 @@ export default function Footer({ locale = 'tr' }) {
           <div className="reveal">
             <Image
               src="/images/logo_white.png"
-              alt="SHINING BROWS"
+              alt="Shining Brows"
               width={3375}
               height={4219}
               className="h-[110px] md:h-[130px] w-auto object-contain"
@@ -52,7 +52,7 @@ export default function Footer({ locale = 'tr' }) {
           </div>
         </div>
 
-        <div className="mt-20 pt-6 flex items-center justify-between text-[10px] uppercase tracking-[0.16em] border-t-[0.5px] border-white/[0.08] font-nav" style={{ color: '#a89888' }}>
+        <div className="mt-20 pt-6 flex items-center justify-between text-[10px] tracking-[0.16em] border-t-[0.5px] border-white/[0.08] font-nav" style={{ color: '#a89888' }}>
           <div>{dict.rights}</div>
         </div>
       </div>

@@ -16,7 +16,7 @@ import { RANK_LOGOS } from '@/lib/workshops';
  *   • A responsive grid of workshop cards. Each card has:
  *       - circular master portrait intersecting the top border
  *       - master name in italic Freight
- *       - "SHINING BROWS" hairline-flanked band spanning border-to-border
+ *       - "Shining Brows" hairline-flanked band spanning border-to-border
  *       - master status (Founder, Gold Master, Master Trainer, …)
  *       - workshop format (Online / Face-to-face)
  *       - month
@@ -124,7 +124,7 @@ function WorkshopCard({ workshop, dict }) {
             marginRight: '-0.18em',
           }}
         >
-          shining brows
+          Shining Brows
         </p>
       </div>
 

@@ -113,7 +113,7 @@ export default function Hero({ locale = 'tr' }) {
     <section
       ref={sectionRef}
       className="relative w-full h-screen overflow-hidden bg-charcoal"
-      aria-label="SHINING BROWS hero"
+      aria-label="Shining Brows hero"
     >
       <video
         ref={videoRef}

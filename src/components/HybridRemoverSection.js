@@ -123,7 +123,7 @@ function SpinningLogoBlack({ label }) {
             fontFamily: 'var(--font-jost)',
             fontSize: 12,
             letterSpacing: '0.32em',
-            textTransform: 'uppercase',
+            textTransform: 'none',
             fontWeight: 600,
           }}
         >
@@ -785,7 +785,7 @@ export default function HybridRemoverSection({ locale = 'tr', onNavVisibilityCha
           })}
         </div>
 
-        {/* MARQUEE (Scene 6) — oversized italic "SHINING BROWS" band
+        {/* MARQUEE (Scene 6) — oversized italic "Shining Brows" band
             looping horizontally at the bottom of the pinned viewport.
             Sits BEHIND the other scene 6 elements (zIndex 8). */}
         <div
@@ -817,7 +817,7 @@ export default function HybridRemoverSection({ locale = 'tr', onNavVisibilityCha
                   textTransform: 'none',
                 }}
               >
-                shining brows
+                Shining Brows
               </span>
             ))}
           </div>

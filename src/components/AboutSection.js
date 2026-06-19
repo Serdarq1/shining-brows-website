@@ -27,7 +27,7 @@ function SpinningLogo({ label }) {
             fontFamily: 'var(--font-jost)',
             fontSize: 13,
             letterSpacing: '0.32em',
-            textTransform: 'uppercase',
+            textTransform: 'none',
             fontWeight: 600,
           }}
         >
@@ -153,7 +153,7 @@ export default function AboutSection({ locale = 'tr' }) {
 
       <div className="max-w-[1600px] mx-auto md:ml-24 px-7 md:px-10 pt-28 md:pt-36 pb-16 md:pb-24 relative">
         <div className="flex items-start justify-between gap-6 mb-4">
-          <span className="reveal text-[11px] uppercase tracking-[0.24em] font-nav font-semibold text-ivory">
+          <span className="reveal text-[11px] tracking-[0.24em] font-nav font-semibold text-ivory">
             {dict.eyebrow}
           </span>
           <div className="reveal hidden md:block absolute right-12 top-8">

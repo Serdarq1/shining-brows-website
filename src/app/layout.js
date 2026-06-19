@@ -8,7 +8,7 @@ import PageLoader from '@/components/PageLoader';
 // inside <body> below — React 18 will hoist it into <head>.
 
 export const metadata = {
-  title: 'SHINING BROWS Academy — Doğal Kaş Bakım Akademisi',
+  title: 'Shining Brows Academy — Doğal Kaş Bakım Akademisi',
   description:
     "Türkiye, KKTC ve Hollanda'daki uzmanlarımızdan doğal kaş tasarımı, vitamin, kına ve hybrid silme eğitimleri.",
 };
