@@ -11,6 +11,18 @@ export const metadata = {
   title: 'Shining Brows Academy — Doğal Kaş Bakım Akademisi',
   description:
     "Türkiye, KKTC ve Hollanda'daki uzmanlarımızdan doğal kaş tasarımı, vitamin, kına ve hybrid silme eğitimleri.",
+  icons: {
+    // Use the brand monogram as the icon. `sizes="any"` lets browsers
+    // rasterize the PNG into whatever favicon slot they need without
+    // squashing the non-square source.
+    icon: [
+      { url: '/images/logo_black.png', type: 'image/png', sizes: 'any' },
+    ],
+    apple: [
+      { url: '/images/logo_black.png', sizes: '180x180', type: 'image/png' },
+    ],
+    shortcut: ['/images/logo_black.png'],
+  },
 };
 
 export const viewport = {

@@ -32,7 +32,7 @@ export default function PromoBar({ hidden = false, locale = 'tr' }) {
       <span aria-hidden className="opacity-50">•</span>
       <span className="hidden sm:inline">{dict.appName}</span>
       <span aria-hidden className="opacity-50 hidden sm:inline">•</span>
-      <span>{dict.downloadApp} ↗</span>
+      <span>{dict.downloadApp} ↗︎</span>
     </a>
   );
 }

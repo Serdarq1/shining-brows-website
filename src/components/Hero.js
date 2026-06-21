@@ -184,7 +184,7 @@ export default function Hero({ locale = 'tr' }) {
         >
           <span>{dict.ctaPrimary}</span>
           <span className="ml-2 inline-block transition-transform duration-300 group-hover:translate-x-[3px] group-hover:-translate-y-[3px]">
-            ↗
+            ↗︎
           </span>
         </a>
 
@@ -194,7 +194,7 @@ export default function Hero({ locale = 'tr' }) {
         >
           <span>{dict.ctaSecondary}</span>
           <span className="ml-2 inline-block transition-transform duration-300 group-hover:translate-x-[3px] group-hover:-translate-y-[3px]">
-            ↗
+            ↗︎
           </span>
         </a>
       </div>

@@ -91,7 +91,7 @@ function CourseCard({ name, subtitle, href, imageSrc }) {
         aria-hidden
         className="absolute top-3 right-3 md:top-6 md:right-6 text-ivory text-[16px] md:text-[20px] opacity-0 -translate-y-1 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0"
       >
-        ↗
+        ↗︎
       </span>
     </Link>
   );
@@ -205,7 +205,7 @@ export default function CoursesSection({ locale = 'tr', showSeeAll = true }) {
             >
               <span>{dict.seeAll}</span>
               <span className="transition-transform duration-300 group-hover:translate-x-[2px] group-hover:-translate-y-[2px]">
-                ↗
+                ↗︎
               </span>
             </Link>
           </div>

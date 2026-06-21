@@ -44,7 +44,7 @@ export default function WorkshopView({ workshop }) {
               style={{ fontSize: '11px', letterSpacing: '0.26em' }}
             >
               <span>{dict.backToCalendar}</span>
-              <span aria-hidden>↗</span>
+              <span aria-hidden>↗︎</span>
             </Link>
           </div>
         </main>

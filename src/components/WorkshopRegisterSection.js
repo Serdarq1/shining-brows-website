@@ -370,7 +370,7 @@ export default function WorkshopRegisterSection({ workshop, locale = 'tr', rankL
               style={{ fontSize: '11px'}}
             >
               <span>{dict.backToCalendar}</span>
-              <span aria-hidden>↗</span>
+              <span aria-hidden>↗︎</span>
             </Link>
           </div>
         )}

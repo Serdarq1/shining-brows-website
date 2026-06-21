@@ -132,3 +132,14 @@ body {
     animation: none;
   }
 }
+
+/* ── iOS Safari forces emoji presentation on glyphs like ↗ / ↘ / ✓ even
+ *    inside body copy. Hint the renderer to keep them as text. The
+ *    Unicode variation selector U+FE0E is also appended in JSX for
+ *    individual arrows that need to be guaranteed text-mode in older
+ *    Safari (font-variant-emoji landed in Safari 16.4).
+ * --------------------------------------------------------------------- */
+:root,
+body {
+  font-variant-emoji: text;
+}
