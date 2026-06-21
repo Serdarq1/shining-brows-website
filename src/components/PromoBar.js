@@ -17,7 +17,7 @@ export default function PromoBar({ hidden = false, locale = 'tr' }) {
       className={[
         'fixed top-0 left-0 right-0 z-[60] bg-amber text-charcoal',
         'flex items-center justify-center gap-4 md:gap-6',
-        'px-4 py-2 text-[11px] uppercase tracking-[0.22em] font-semibold font-nav',
+        'px-4 py-2 text-[11px] tracking-[0.22em] font-semibold font-nav',
         'transition-all duration-300 hover:bg-amber-deep',
         hidden ? 'opacity-0 pointer-events-none -translate-y-full' : 'opacity-100',
       ].join(' ')}
@@ -30,9 +30,9 @@ export default function PromoBar({ hidden = false, locale = 'tr' }) {
         className="h-12 w-auto object-contain"
       />
       <span aria-hidden className="opacity-50">•</span>
-      <span className="hidden sm:inline">{dict.appName}</span>
+      <span lang="en" className="hidden sm:inline">{dict.appName}</span>
       <span aria-hidden className="opacity-50 hidden sm:inline">•</span>
-      <span>{dict.downloadApp} ↗︎</span>
+      <span className="uppercase">{dict.downloadApp} ↗︎</span>
     </a>
   );
 }

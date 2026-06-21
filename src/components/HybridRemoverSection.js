@@ -164,22 +164,23 @@ function IngredientDot({
   expanded,
   interactive,
   onToggle,
+  compact = false,
 }) {
   // Geometry of the callout — short rightward callout from the dot in the
   // left empty space, ending well before the bottle.
-  const lineWidth = 100;
-  const lineHeight = 70;
+  const lineWidth = compact ? 46 : 100;
+  const lineHeight = compact ? 58 : 70;
   const centerY = lineHeight / 2;
-  const startBreakX = 38;
-  const endBreakX = lineWidth - 38;
+  const startBreakX = compact ? 18 : 38;
+  const endBreakX = lineWidth - (compact ? 18 : 38);
 
   // The vertical "fan" amount — bigger for the outermost dots, smaller
   // for the ones closer to the middle.
   const half = Math.floor(totalDots / 2);
   const isTop = index < half;
   const distanceFromCentre = isTop ? half - index : index - half + 1;
-  const fanStep = 10; // px per rank
-  const baseRise = 6;
+  const fanStep = compact ? 7 : 10; // px per rank
+  const baseRise = compact ? 4 : 6;
   const rise = baseRise + (distanceFromCentre - 1) * fanStep;
 
   let pathD;
@@ -249,7 +250,7 @@ function IngredientDot({
           position: 'absolute',
           left: 0,
           top: -centerY,
-          width: lineWidth + 240,
+          width: compact ? '93vw' : lineWidth + 240,
           height: lineHeight,
           pointerEvents: 'none',
         }}
@@ -278,12 +279,17 @@ function IngredientDot({
             position: 'absolute',
             left: lineWidth + 8,
             top: labelY - 8,
-            fontSize: 'clamp(10px, 0.85vw, 12px)',
-            letterSpacing: '0.22em',
+            width: compact ? 'calc(93vw - 72px)' : undefined,
+            padding: compact ? '3px 5px' : 0,
+            borderRadius: compact ? 2 : 0,
+            background: compact ? 'rgba(247, 244, 238, 0.94)' : 'transparent',
+            fontSize: compact ? 'clamp(10px, 3vw, 12px)' : 'clamp(10px, 0.85vw, 12px)',
+            letterSpacing: compact ? '0.12em' : '0.22em',
+            lineHeight: compact ? 1.25 : 'normal',
             textTransform: 'uppercase',
             color: PALETTE.ink,
             fontWeight: 600,
-            whiteSpace: 'nowrap',
+            whiteSpace: compact ? 'normal' : 'nowrap',
             opacity: expanded ? 1 : 0,
             transition: 'opacity 0.3s ease 0.35s',
           }}
@@ -322,6 +328,7 @@ export default function HybridRemoverSection({ locale = 'tr', onNavVisibilityCha
   // Interactive dots — true once the bottle has landed and Scene 6 is showing.
   const [interactive, setInteractive] = useState(false);
   const [expandedSet, setExpandedSet] = useState(() => new Set());
+  const [isCompactLayout, setIsCompactLayout] = useState(false);
   const interactiveRef = useRef(false);
   const floatPausedRef = useRef(false);
   const floatTlRef = useRef(null);
@@ -329,12 +336,21 @@ export default function HybridRemoverSection({ locale = 'tr', onNavVisibilityCha
 
   const toggleDot = (i) => {
     setExpandedSet((prev) => {
+      if (isCompactLayout) return prev.has(i) ? new Set() : new Set([i]);
       const next = new Set(prev);
       if (next.has(i)) next.delete(i);
       else next.add(i);
       return next;
     });
   };
+
+  useEffect(() => {
+    const media = window.matchMedia('(max-width: 767px)');
+    const updateLayout = () => setIsCompactLayout(media.matches);
+    updateLayout();
+    media.addEventListener('change', updateLayout);
+    return () => media.removeEventListener('change', updateLayout);
+  }, []);
 
   useEffect(() => {
     if (!sectionRef.current) return;
@@ -751,7 +767,7 @@ export default function HybridRemoverSection({ locale = 'tr', onNavVisibilityCha
           ref={dotsLayerRef}
           className="absolute"
           style={{
-            left: '28vw',
+            left: isCompactLayout ? '7vw' : '28vw',
             top: '50%',
             transform: 'translateY(-50%)',
             width: 0,
@@ -780,6 +796,7 @@ export default function HybridRemoverSection({ locale = 'tr', onNavVisibilityCha
                 expanded={expandedSet.has(i)}
                 interactive={interactive}
                 onToggle={() => toggleDot(i)}
+                compact={isCompactLayout}
               />
             );
           })}

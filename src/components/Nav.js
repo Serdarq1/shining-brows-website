@@ -38,6 +38,10 @@ export default function Nav({ locale = 'tr', onLocaleChange, onMenuChange, force
   }, [menuOpen, onMenuChange]);
 
   useEffect(() => {
+    document.documentElement.lang = locale;
+  }, [locale]);
+
+  useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });

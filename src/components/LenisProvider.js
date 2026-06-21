@@ -1,14 +1,17 @@
 'use client';
 import { useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import Lenis from 'lenis';
 
 export default function LenisProvider({ children }) {
+  const pathname = usePathname();
+
   useEffect(() => {
     let lenis;
-    let rafId;
     let cancelled = false;
     let gsapInstance;
     let ScrollTriggerInstance;
+    let updateLenis;
 
     (async () => {
       const gsapMod = await import('gsap');
@@ -26,22 +29,22 @@ export default function LenisProvider({ children }) {
       });
 
       lenis.on('scroll', ScrollTriggerInstance.update);
-      gsapInstance.ticker.add((time) => lenis.raf(time * 1000));
+      updateLenis = (time) => lenis.raf(time * 1000);
+      gsapInstance.ticker.add(updateLenis);
       gsapInstance.ticker.lagSmoothing(0);
-
-      function raf(time) {
-        lenis.raf(time);
-        rafId = requestAnimationFrame(raf);
-      }
-      rafId = requestAnimationFrame(raf);
     })();
 
     return () => {
       cancelled = true;
-      if (rafId) cancelAnimationFrame(rafId);
+      if (gsapInstance && updateLenis) gsapInstance.ticker.remove(updateLenis);
       if (lenis) lenis.destroy();
     };
   }, []);
+
+  useEffect(() => {
+    const frame = requestAnimationFrame(() => window.scrollTo(0, 0));
+    return () => cancelAnimationFrame(frame);
+  }, [pathname]);
 
   return children;
 }
