@@ -366,6 +366,14 @@ export default function HybridRemoverSection({ locale = 'tr', onNavVisibilityCha
       const ScrollTrigger = stMod.ScrollTrigger || stMod.default;
       gsap.registerPlugin(ScrollTrigger);
 
+      // ponytail: ScrollTrigger measures DOM rects *now* — before fonts
+      // and product images may have settled. Recalculate once they do
+      // so the pinned scrub doesn't desync.
+      if (typeof window !== 'undefined') {
+        if (document?.fonts?.ready) document.fonts.ready.then(() => ScrollTrigger.refresh());
+        window.addEventListener('load', () => ScrollTrigger.refresh(), { once: true });
+      }
+
       // Continuous gentle float on the bottle image — independent of scroll
       // and of the tag bobs. It is explicitly resumed only during the Scene 3
       // floating-tag shot so the product visibly bobs there, then settles.
@@ -618,7 +626,10 @@ export default function HybridRemoverSection({ locale = 'tr', onNavVisibilityCha
           <div
             ref={scene2ItalicRef}
             className="font-logo italic text-center"
+            // ponytail: opacity:0 default keeps scene 2 hidden if GSAP
+            // hasn't booted yet (avoids the "all scenes stacked" flash).
             style={{
+              opacity: 0,
               color: PALETTE.ink,
               fontSize: 'clamp(52px, 8.4vw, 132px)',
               lineHeight: 0.98,
@@ -632,6 +643,7 @@ export default function HybridRemoverSection({ locale = 'tr', onNavVisibilityCha
             ref={scene2FolioRef}
             className="font-nav uppercase text-center"
             style={{
+              opacity: 0,
               color: PALETTE.inkSoft,
               fontSize: 'clamp(13px, 1.4vw, 22px)',
               letterSpacing: '0.30em',
@@ -726,7 +738,7 @@ export default function HybridRemoverSection({ locale = 'tr', onNavVisibilityCha
 
         {/* FLOATING PRODUCT TAGS (Scene 3) — clipped by the pinned viewport
             so the glass pills never appear outside the Hybrid Remover shot. */}
-        <div ref={tagsRef} className="absolute inset-0 pointer-events-none" style={{ zIndex: 18 }}>
+        <div ref={tagsRef} className="absolute inset-0 pointer-events-none" style={{ zIndex: 18, opacity: 0 }}>
           {dict.floatingTags.map((label, i) => {
             const layout = FLOATING_TAG_LAYOUT[i % FLOATING_TAG_LAYOUT.length];
             const { className, duration, delay, amplitude, ...style } = layout;
@@ -767,6 +779,7 @@ export default function HybridRemoverSection({ locale = 'tr', onNavVisibilityCha
           ref={dotsLayerRef}
           className="absolute"
           style={{
+            opacity: 0,
             left: isCompactLayout ? '7vw' : '28vw',
             top: '50%',
             transform: 'translateY(-50%)',
@@ -808,7 +821,7 @@ export default function HybridRemoverSection({ locale = 'tr', onNavVisibilityCha
         <div
           ref={marqueeRef}
           className="absolute left-0 right-0 overflow-hidden pointer-events-none"
-          style={{ zIndex: 8, bottom: '2vh', paddingBottom: '0.22em' }}
+          style={{ zIndex: 8, bottom: '2vh', paddingBottom: '0.22em', opacity: 0 }}
           aria-hidden
         >
           <div

@@ -25,7 +25,7 @@ export const NAV_LINKS = [
 ];
 
 export const FOOTER_LINKS = {
-  egitimler: [
+  workshoplar: [
     { label: 'Kaş Vitamini', href: '/courses/brow-vitamin' },
     { label: 'Kaş Kınası', href: '/courses/brow-henna' },
     { label: 'Kaş Silme', href: '/courses/brow-removal' },

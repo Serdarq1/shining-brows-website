@@ -1,6 +1,6 @@
 # Shining Brows Academy
 
-Premium warm-editorial landing page for a Turkish brow education brand with trainers in Türkiye, KKTC, and the Netherlands. Built with Next.js 14 (App Router), Tailwind CSS v3, GSAP + ScrollTrigger, and Lenis.
+Premium warm-editorial landing page for a Turkish brow workshop brand with trainers in Türkiye, KKTC, and the Netherlands. Built with Next.js 14 (App Router), Tailwind CSS v3, GSAP + ScrollTrigger, and Lenis.
 
 ## Install
 

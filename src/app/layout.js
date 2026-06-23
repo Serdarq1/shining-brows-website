@@ -10,7 +10,7 @@ import PageLoader from '@/components/PageLoader';
 export const metadata = {
   title: 'Shining Brows Academy — Doğal Kaş Bakım Akademisi',
   description:
-    "Türkiye, KKTC ve Hollanda'daki uzmanlarımızdan doğal kaş tasarımı, vitamin, kına ve hybrid silme eğitimleri.",
+    "Türkiye, KKTC ve Hollanda'daki uzmanlarımızdan doğal kaş tasarımı, vitamin, kına ve hybrid silme workshopları.",
   icons: {
     // Use the brand monogram as the icon. `sizes="any"` lets browsers
     // rasterize the PNG into whatever favicon slot they need without

@@ -1,6 +1,6 @@
 const tr = {
   nav: {
-    courses: 'Eğitimler',
+    courses: 'Workshoplar',
     workshopsItem: 'Workshoplar',
     browRemoval: 'Brow Removal',
     browHenna: 'Brow Henna',
@@ -49,9 +49,9 @@ const tr = {
     ],
   },
   courses: {
-    eyebrow: 'Eğitimler',
+    eyebrow: 'Workshoplar',
     italicLabel: 'Shining Brows',
-    body1: 'Dünyanın dört bir yanından kursiyerler Shining Brows markasını seçiyor — çünkü her diplomalı uzmanımızın titiz, profesyonel ve sektörde ilk olan bir eğitimden geçtiğini biliyorlar.',
+    body1: 'Dünyanın dört bir yanındaki workshop katılımcıları Shining Brows markasını seçiyor — çünkü her diplomalı uzmanımızın titiz, profesyonel ve sektörde ilk olan bir workshoptan geçtiğini biliyorlar.',
     body2: 'Geliştirdiğimiz tekniklerin kalitesi ve hassasiyeti uluslararası alanda tanınıyor; kaliteyi her şeyin önünde tutan müşterilere ulaşmanın kapısını açıyor.',
     items: [
       { name: 'Kaş Vitamini', href: '/courses/brow-vitamin', imageSrc: '/images/brow_vitamin.png' },
@@ -74,7 +74,7 @@ const tr = {
     headline: "Shining Brows'un",
     subline: 'YENİ MASTER TRAINERI SİZ OLUN',
     levels: ['Student', 'Shining Artist', 'Master Assistant', 'Master Trainer', 'Gold Master'],
-    body1: 'Eğitmenler, salon liderleri ve kaş profesyonelleri için tasarlanan yapılandırılmış bir gelişim yolculuğuna adım atın; Shining Brows standardını güvenle temsil edin.',
+    body1: 'Trainers, salon liderleri ve kaş profesyonelleri için tasarlanan yapılandırılmış bir gelişim yolculuğuna adım atın; Shining Brows standardını güvenle temsil edin.',
     body2: 'Master yolculuğu; ileri teknik, marka disiplini, mentorluk ve uluslararası görünürlüğü bir araya getirerek uzmanlığınızı uygulama odasının ötesine taşır.',
     cta: 'Shining Artist yolculuğuna başla',
     ctaHref: '/workshops',
@@ -90,7 +90,7 @@ const tr = {
     },
     app: {
       title: 'Expert App',
-      body: 'Uzman yolculuğunuzu, eğitim erişimlerinizi, güncellemeleri ve marka kaynaklarını Shining Brows Expert Portal üzerinden yönetin.',
+      body: 'Uzman yolculuğunuzu, workshop erişimlerinizi, güncellemeleri ve marka kaynaklarını Shining Brows Expert Portal üzerinden yönetin.',
       cta: 'Uygulamayı İndir',
     },
   },
@@ -100,7 +100,7 @@ const tr = {
     headline: {
       line1: 'En çok aranan',
       line2: 'uzmanları',
-      line3: 'eğitiyoruz.',
+      line3: 'yetiştiriyoruz.',
     },
     body: 'Sektörde yıllarını geçirmiş bir uzmandan, daha ilk adımlarını atan herkese kadar — sektörün yıldızlarını yetiştiriyoruz.',
     stats: [
@@ -240,13 +240,13 @@ const tr = {
     planTitle: 'Shining Brows Plan Sistemi Nasıl?',
     planBody:
       'Shining Brows yolculuğunuz beş aşamalı bir plan üzerinde ilerler — temellerin atıldığı Student aşamasından sektörün öncüsü Gold Master statüsüne kadar. Her aşama; teknik derinlik, marka disiplini ve mentorluk üzerine kurulu, ölçülebilir bir gelişim çerçevesi sunar.',
-    trainingTitle: 'Eğitimlerimiz nasıl geçiyor?',
+    trainingTitle: 'Workshoplarımız nasıl geçiyor?',
     trainingBody:
-      'Shining Brows workshopları; teori, canlı uygulama ve birebir mentorluk üçgeninde ilerler. İki günlük yüz yüze eğitimde teknik gösterimler, model üzerinde uygulama ve uzmanlarımızla detaylı geri bildirim oturumları bir arada sunulur. Eğitim sonunda her katılımcı, gerçek bir müşteri akışını başından sonuna kadar tamamlayacak güvene ulaşır.',
+      'Shining Brows workshopları; teori, canlı uygulama ve birebir mentorluk üçgeninde ilerler. İki günlük yüz yüze workshopta teknik gösterimler, model üzerinde uygulama ve uzmanlarımızla detaylı geri bildirim oturumları bir arada sunulur. Workshop sonunda her katılımcı, gerçek bir müşteri akışını başından sonuna kadar tamamlayacak güvene ulaşır.',
     certificatesTitle: 'Sertifikalar',
     certificatesSubline: 'Shining Brows',
     certificatesBody:
-      'İki günlük yüz yüze eğitimi tamamlayan her katılımcı önce katılım sertifikasını alır. Yolculuğunuz ilerledikçe ölçülebilir aşamalara karşılık gelen yeni sertifikalar kazanırsınız: Shining Artist, Master Assistant ve Master Trainer. Her belge, Shining Brows uzman haritasındaki yerinizi resmen onaylar.',
+      'İki günlük yüz yüze workshopu tamamlayan her katılımcı önce katılım sertifikasını alır. Yolculuğunuz ilerledikçe ölçülebilir aşamalara karşılık gelen yeni sertifikalar kazanırsınız: Shining Artist, Master Assistant ve Master Trainer. Her belge, Shining Brows uzman haritasındaki yerinizi resmen onaylar.',
   },
   productDetails: {
     ingredients: 'İçindekiler',
@@ -369,7 +369,7 @@ const tr = {
     title: 'Workshop',
     subtitle: 'Takvimi',
     intro:
-      'Shining Brows uzmanlarının dünyanın dört bir yanında düzenlediği canlı ve online eğitimlerin tamamı tek bir takvimde. Aşağıdaki filtreleri kullanarak size en yakın tarihi keşfedin.',
+      'Shining Brows uzmanlarının dünyanın dört bir yanında düzenlediği canlı ve online workshopların tamamı tek bir takvimde. Aşağıdaki filtreleri kullanarak size en yakın tarihi keşfedin.',
     filters: {
       location: 'Lokasyon',
       type: 'Format',
@@ -394,12 +394,12 @@ const tr = {
 
     },
     joinNow: 'Kayıt Ol',
-    noResults: 'Bu kriterlere uygun bir eğitim bulunamadı.',
+    noResults: 'Bu kriterlere uygun bir workshop bulunamadı.',
   },
   joinIndustry: {
     ariaLabel: 'Sektörde fark yaratanların arasına katılın',
     title: 'Sektörde fark yaratanların arasına katılın',
-    body: 'Shining Brows ailesi, dünyanın dört bir yanından uzmanları bir araya getiriyor. Eğitimlerimize katılarak siz de doğal güzellik vizyonumuzun bir parçası olun; teknik, marka disiplini ve uluslararası görünürlüğü kucaklayan, sektörün öncü uzmanları arasında yerinizi alın.',
+    body: 'Shining Brows ailesi, dünyanın dört bir yanından uzmanları bir araya getiriyor. Workshoplarımıza katılarak siz de doğal güzellik vizyonumuzun bir parçası olun; teknik, marka disiplini ve uluslararası görünürlüğü kucaklayan, sektörün öncü uzmanları arasında yerinizi alın.',
     cta: 'Aramıza Katıl',
     ctaHref: '/workshops',
   },
@@ -414,7 +414,7 @@ const tr = {
     eyebrow: 'Shining Brows',
     headlineRoman: 'Sektörde çığır açan ürünler',
     headlineItalic: '— üstelik tamamen doğal',
-    body: 'Doğal kaş standardının öncüsü olduk — cilde zarar vermeyen hibrit formülü, uzmanlar için titizlikle hazırlanmış eğitim yolculuğunu ve sertifikalı sanatçılardan oluşan küresel bir topluluğu bir araya getirdik. Her Shining Brows uzmanı; tutarlı, rafine ve kalıcı sonuçlar verecek şekilde tasarlanmış, sektörde ilk olan yapılandırılmış bir müfredatla yetişir.',
+    body: 'Doğal kaş standardının öncüsü olduk — cilde zarar vermeyen hibrit formülü, uzmanlar için titizlikle hazırlanmış workshop yolculuğunu ve sertifikalı sanatçılardan oluşan küresel bir topluluğu bir araya getirdik. Her Shining Brows uzmanı; tutarlı, rafine ve kalıcı sonuçlar verecek şekilde tasarlanmış, sektörde ilk olan yapılandırılmış bir müfredatla yetişir.',
   },
   hero: {
     body: 'Sektörde ilk ve tek olan yeni bir ürün, Hybrid Remover',
@@ -426,7 +426,7 @@ const tr = {
   },
   footer: {
     sections: {
-      egitimler: 'Eğitimler',
+      workshoplar: 'Workshoplar',
       akademi: 'Akademi',
       iletisim: 'İletişim',
     },

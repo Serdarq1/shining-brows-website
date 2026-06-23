@@ -1,6 +1,6 @@
 const en = {
   nav: {
-    courses: 'Courses',
+    courses: 'Workshops',
     workshopsItem: 'Workshops',
     browRemoval: 'Brow Removal',
     browHenna: 'Brow Henna',
@@ -49,9 +49,9 @@ const en = {
     ],
   },
   courses: {
-    eyebrow: 'Courses',
+    eyebrow: 'Workshops',
     italicLabel: 'Shining Brows',
-    body1: 'Trainees from around the world choose the Shining Brows brand because they know every certified expert has been through rigorous, professional training that is a first in the industry.',
+    body1: 'Workshop participants from around the world choose Shining Brows because they know every certified expert has completed a rigorous, professional workshop that is a first in the industry.',
     body2: 'The quality and precision of the techniques we develop are internationally recognised — opening the door to clients who put craft above price.',
     items: [
       { name: 'Brow Vitamin', subtitle: 'Care & Repair', href: '/courses/brow-vitamin', imageSrc: '/images/brow_vitamin.png' },
@@ -74,7 +74,7 @@ const en = {
     headline: 'BECOME A SHINING ARTIST',
     subline: 'OF Shining Brows',
     levels: ['Student', 'Shining Artist', 'Master Assistant', 'Master Trainer', 'Gold Master'],
-    body1: 'Step into a structured artist path built for educators, salon leaders, and brow professionals ready to represent the Shining Brows standard with confidence.',
+    body1: 'Step into a structured artist path built for trainers, salon leaders, and brow professionals ready to represent the Shining Brows standard with confidence.',
     body2: 'The master journey combines advanced technique, brand discipline, mentorship, and international visibility so your work can grow beyond the treatment room.',
     cta: 'Start your journey as a Shining Artist',
     ctaHref: '/workshops',
@@ -90,7 +90,7 @@ const en = {
     },
     app: {
       title: 'Expert App',
-      body: 'Manage your expert journey, training access, updates, and brand resources from the Shining Brows Expert Portal.',
+      body: 'Manage your expert journey, workshop access, updates, and brand resources from the Shining Brows Expert Portal.',
       cta: 'Download App',
     },
   },
@@ -98,7 +98,7 @@ const en = {
     eyebrow: 'Shining Brows Academy',
     spinningLabel: 'Shining Brows · Shining Brows · ',
     headline: {
-      line1: 'We train the experts',
+      line1: 'We develop the experts',
       line2: 'the world is searching for —',
       line3: 'globally.',
     },
@@ -238,13 +238,13 @@ const en = {
     planTitle: 'How does the Shining Brows Plan System work?',
     planBody:
       'Your Shining Brows journey unfolds across a five-stage plan — from the foundational Student stage to the industry-defining Gold Master status. Each stage delivers a measurable framework built on technical depth, brand discipline, and mentorship.',
-    trainingTitle: 'How do our trainings unfold?',
+    trainingTitle: 'How do our workshops unfold?',
     trainingBody:
-      'Shining Brows workshops move along a three-point triangle: theory, live practice and one-to-one mentorship. The two-day in-person training combines technique demonstrations, hands-on work on models, and detailed feedback sessions with our experts. By the end of the program every participant has the confidence to carry a real client journey from start to finish.',
+      'Shining Brows workshops move along a three-point triangle: theory, live practice and one-to-one mentorship. The two-day in-person workshop combines technique demonstrations, hands-on work on models, and detailed feedback sessions with our experts. By the end of the workshop, every participant has the confidence to carry a real client journey from start to finish.',
     certificatesTitle: 'Certificates',
     certificatesSubline: 'Shining Brows',
     certificatesBody:
-      'Every participant who completes the two-day live training receives a certificate of attendance. As you progress through the journey you earn higher certifications — Shining Artist, Master Assistant and Master Trainer — each one formally confirming your place on the Shining Brows expert map.',
+      'Every participant who completes the two-day live workshop receives a certificate of attendance. As you progress through the journey you earn higher certifications — Shining Artist, Master Assistant and Master Trainer — each one formally confirming your place on the Shining Brows expert map.',
   },
   productDetails: {
     ingredients: 'Ingredients',
@@ -364,12 +364,12 @@ const en = {
     notFoundBody: 'The workshop you are looking for may no longer be on the calendar.',
   },
   findCourse: {
-    ariaLabel: 'Find a Training Program',
-    eyebrow: 'FIND A TRAINING PROGRAM',
+    ariaLabel: 'Find a Workshop',
+    eyebrow: 'FIND A WORKSHOP',
     title: 'Workshop',
     subtitle: 'Calendar',
     intro:
-      'Every live and online course led by Shining Brows masters, gathered into a single calendar. Use the filters below to find the date nearest you.',
+      'Every live and online workshop led by Shining Brows masters, gathered into a single calendar. Use the filters below to find the date nearest you.',
     filters: {
       location: 'Location',
       type: 'Format',
@@ -394,12 +394,12 @@ const en = {
 
     },
     joinNow: 'Register',
-    noResults: 'No courses match these filters.',
+    noResults: 'No workshops match these filters.',
   },
   joinIndustry: {
     ariaLabel: 'Join those who make a difference in the industry',
     title: 'Join those who make a difference in the industry',
-    body: 'The Shining Brows family brings together experts from around the world. Step into our courses and become part of our vision of natural beauty — embracing technique, brand discipline, and international visibility as you take your place among the industry’s leading specialists.',
+    body: 'The Shining Brows family brings together experts from around the world. Join our workshops and become part of our vision of natural beauty — embracing technique, brand discipline, and international visibility as you take your place among the industry’s leading specialists.',
     cta: 'Join Us',
     ctaHref: '/workshops',
   },
@@ -414,7 +414,7 @@ const en = {
     eyebrow: 'Shining Brows',
     headlineRoman: 'Creating fully natural',
     headlineItalic: '— revoulationary products',
-    body: 'We pioneered the natural brow standard — combining a hybrid formula safe for the skin, a rigorous education path for experts, and a global community of certified artists. Every Shining Brows specialist is trained through a structured, industry-first curriculum designed to deliver consistent, refined results that endure.',
+    body: 'We pioneered the natural brow standard — combining a hybrid formula safe for the skin, a rigorous workshop journey for experts, and a global community of certified artists. Every Shining Brows specialist completes a structured, industry-first workshop program designed to deliver consistent, refined results that endure.',
   },
   hero: {
     body: 'A revolutionary product in the beauty sector, Hybrid Remover',
@@ -426,7 +426,7 @@ const en = {
   },
   footer: {
     sections: {
-      egitimler: 'Courses',
+      workshoplar: 'Workshops',
       akademi: 'Academy',
       iletisim: 'Contact',
     },

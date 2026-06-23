@@ -106,7 +106,7 @@ export default function CoursesSection({ locale = 'tr', showSeeAll = true }) {
       ref={ref}
       className="relative overflow-hidden text-charcoal py-28 md:py-40"
       style={{ backgroundColor: '#F7F4EE' }}
-      aria-label="Courses"
+      aria-label="Workshops"
     >
       <div
         aria-hidden

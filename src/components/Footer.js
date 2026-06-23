@@ -23,8 +23,8 @@ export default function Footer({ locale = 'tr' }) {
           </div>
 
           <FooterColumn
-            title={dict.sections.egitimler}
-            items={FOOTER_LINKS.egitimler}
+            title={dict.sections.workshoplar}
+            items={FOOTER_LINKS.workshoplar}
           />
           <FooterColumn
             title={dict.sections.akademi}
