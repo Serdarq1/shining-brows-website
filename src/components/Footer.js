@@ -52,8 +52,12 @@ export default function Footer({ locale = 'tr' }) {
           </div>
         </div>
 
-        <div className="mt-20 pt-6 flex items-center justify-between text-[10px] tracking-[0.16em] border-t-[0.5px] border-white/[0.08] font-nav" style={{ color: '#a89888' }}>
+        <div className="mt-20 pt-6 flex flex-col md:flex-row gap-4 md:items-center md:justify-between text-[10px] tracking-[0.16em] border-t-[0.5px] border-white/[0.08] font-nav" style={{ color: '#a89888' }}>
           <div>{dict.rights}</div>
+          <div className="flex gap-6">
+            <a href="https://shiningbrowsacademy.com/kvkk" target="_blank" rel="noopener noreferrer" className="hover:text-ivory transition-colors">{dict.kvkk}</a>
+            <a href="https://www.shiningbrowsacademy.com/expert-portal-privacy-policy" target="_blank" rel="noopener noreferrer" className="hover:text-ivory transition-colors">{dict.privacy}</a>
+          </div>
         </div>
       </div>
     </footer>

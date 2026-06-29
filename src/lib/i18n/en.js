@@ -432,6 +432,8 @@ const en = {
     },
     cta: 'Join Workshop',
     rights: '©2026 Shining Brows Academy',
+    kvkk: 'KVKK',
+    privacy: 'Privacy Policy',
   },
 };
 

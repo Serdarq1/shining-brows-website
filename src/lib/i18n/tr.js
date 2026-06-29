@@ -432,6 +432,8 @@ const tr = {
     },
     cta: 'Workshop Kaydol',
     rights: '©2026 Shining Brows Academy',
+    kvkk: 'KVKK',
+    privacy: 'Gizlilik Politikası',
   },
 };
 
