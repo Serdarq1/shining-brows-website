@@ -257,6 +257,14 @@ export async function getExperts() {
   return (data || []).map(mapExpert);
 }
 
+// Ranks shown in the courses-page trainer scatter, in display order. The
+// scatter is hand-positioned (CoursesHero POSITIONS), so order is
+// deterministic to keep the founder on the anchor slot and stop the layout
+// from reshuffling on every deploy.
+// ponytail: CoursesHero must define at least as many POSITIONS as there are
+// scatter trainers, or the surplus wraps onto slot 0 and overlaps.
+const SCATTER_RANK_ORDER = ['founder', 'gold_master', 'master_trainer', 'distributor'];
+
 export async function getTrainers() {
   const sb = supabaseServer();
   if (!sb) return [];
@@ -264,11 +272,17 @@ export async function getTrainers() {
     .from('experts')
     .select(FIELDS)
     .eq('is_active', true)
-    .in('rank', MASTER_RANKS);
+    .in('rank', SCATTER_RANK_ORDER);
   if (error) {
     // eslint-disable-next-line no-console
     console.error('[db.getTrainers]', error);
     return [];
   }
-  return (data || []).map(mapExpert);
+  return (data || [])
+    .map(mapExpert)
+    .sort(
+      (a, b) =>
+        SCATTER_RANK_ORDER.indexOf(a.rank) - SCATTER_RANK_ORDER.indexOf(b.rank) ||
+        (a.name || '').localeCompare(b.name || '', 'tr')
+    );
 }

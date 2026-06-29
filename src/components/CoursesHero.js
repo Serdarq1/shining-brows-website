@@ -36,8 +36,9 @@ const POSITIONS = [
   { top: '18%', left: '74%', w: 'clamp(180px, 15vw, 270px)', rot:  5 }, // 3. Ebru
   { top: '44%', left: '14%', w: 'clamp(180px, 15vw, 270px)', rot: -4 }, // 4. Azize
   { top: '48%', left: '62%', w: 'clamp(170px, 14vw, 250px)', rot:  4 }, // 5. Zeynep
-  { top: '76%', left: '6%',  w: 'clamp(190px, 16vw, 280px)', rot: -2 }, // 6. Gözde
-  { top: '78%', left: '66%', w: 'clamp(190px, 16vw, 280px)', rot:  3 }, // 7. Feride
+  { top: '46%', left: '40%', w: 'clamp(160px, 13vw, 240px)', rot: -3 }, // 6. (mid-centre)
+  { top: '76%', left: '6%',  w: 'clamp(190px, 16vw, 280px)', rot: -2 }, // 7. (left bottom)
+  { top: '78%', left: '66%', w: 'clamp(190px, 16vw, 280px)', rot:  3 }, // 8. (right bottom)
 ];
 
 function TrainerCard({ trainer, countryLabel, rankLabel, rankLogo, refSetter }) {

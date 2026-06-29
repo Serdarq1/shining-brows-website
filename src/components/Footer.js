@@ -1,6 +1,5 @@
 'use client';
 import Image from 'next/image';
-import { FOOTER_LINKS } from '@/lib/constants';
 import { getDictionary } from '@/lib/i18n';
 import { useGsapReveal } from '@/hooks/useGsapReveal';
 
@@ -24,11 +23,11 @@ export default function Footer({ locale = 'tr' }) {
 
           <FooterColumn
             title={dict.sections.workshoplar}
-            items={FOOTER_LINKS.workshoplar}
+            items={dict.links.workshoplar}
           />
           <FooterColumn
             title={dict.sections.akademi}
-            items={FOOTER_LINKS.akademi}
+            items={dict.links.akademi}
           />
 
           <div className="reveal">
@@ -36,7 +35,7 @@ export default function Footer({ locale = 'tr' }) {
               {dict.sections.iletisim}
             </h4>
             <ul className="mt-6 space-y-3 font-nav">
-              {FOOTER_LINKS.iletisim.map((item) => (
+              {dict.links.iletisim.map((item) => (
                 <li key={item.href}>
                   <a
                     href={item.href}
@@ -55,7 +54,7 @@ export default function Footer({ locale = 'tr' }) {
         <div className="mt-20 pt-6 flex flex-col md:flex-row gap-4 md:items-center md:justify-between text-[10px] tracking-[0.16em] border-t-[0.5px] border-white/[0.08] font-nav" style={{ color: '#a89888' }}>
           <div>{dict.rights}</div>
           <div className="flex gap-6">
-            <a href="https://shiningbrowsacademy.com/kvkk" target="_blank" rel="noopener noreferrer" className="hover:text-ivory transition-colors">{dict.kvkk}</a>
+            <a href="https://www.shiningbrowsacademy.com/kvkk" target="_blank" rel="noopener noreferrer" className="hover:text-ivory transition-colors">{dict.kvkk}</a>
             <a href="https://www.shiningbrowsacademy.com/expert-portal-privacy-policy" target="_blank" rel="noopener noreferrer" className="hover:text-ivory transition-colors">{dict.privacy}</a>
           </div>
         </div>

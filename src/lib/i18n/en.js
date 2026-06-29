@@ -434,6 +434,24 @@ const en = {
     rights: '©2026 Shining Brows Academy',
     kvkk: 'KVKK',
     privacy: 'Privacy Policy',
+    links: {
+      workshoplar: [
+        { label: 'Brow Vitamin', href: '/courses/brow-vitamin' },
+        { label: 'Brow Henna', href: '/courses/brow-henna' },
+        { label: 'Brow Removal', href: '/courses/brow-removal' },
+        { label: 'Products', href: '/products' },
+      ],
+      akademi: [
+        { label: 'About Us', href: '/about' },
+        { label: 'Expert Map', href: '/experts' },
+        { label: 'Become a Shining Artist', href: '/workshops' },
+        { label: 'Expert Portal', href: 'https://experts.shiningbrowsacademy.com', external: true },
+      ],
+      iletisim: [
+        { label: 'Instagram', href: 'https://instagram.com/shiningbrowsturkey', external: true },
+        { label: 'info@shiningbrowsacademy.com', href: 'mailto:info@shiningbrowsacademy.com' },
+      ],
+    },
   },
 };
 

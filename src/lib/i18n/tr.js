@@ -434,6 +434,24 @@ const tr = {
     rights: '©2026 Shining Brows Academy',
     kvkk: 'KVKK',
     privacy: 'Gizlilik Politikası',
+    links: {
+      workshoplar: [
+        { label: 'Kaş Vitamini', href: '/courses/brow-vitamin' },
+        { label: 'Kaş Kınası', href: '/courses/brow-henna' },
+        { label: 'Kaş Silme', href: '/courses/brow-removal' },
+        { label: 'Ürünler', href: '/products' },
+      ],
+      akademi: [
+        { label: 'Hakkımızda', href: '/about' },
+        { label: 'Uzman Haritası', href: '/experts' },
+        { label: 'Shining Artist Ol', href: '/workshops' },
+        { label: 'Uzman Portalı', href: 'https://experts.shiningbrowsacademy.com', external: true },
+      ],
+      iletisim: [
+        { label: 'Instagram', href: 'https://instagram.com/shiningbrowsturkey', external: true },
+        { label: 'info@shiningbrowsacademy.com', href: 'mailto:info@shiningbrowsacademy.com' },
+      ],
+    },
   },
 };
 
